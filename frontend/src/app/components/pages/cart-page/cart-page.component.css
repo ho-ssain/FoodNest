@@ -46,6 +46,8 @@ li div:not(:first-child) {
 }
 
 li select {
+  background: rgb(0, 0, 0);
+  color: white;
   width: 3rem;
   outline: none;
   border: none;
