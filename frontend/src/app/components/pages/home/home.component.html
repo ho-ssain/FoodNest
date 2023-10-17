@@ -1,5 +1,9 @@
 <search></search>
 <tags></tags>
+<not-found
+  [visible]="!foods || !foods.length"
+  resetLinkText="Reset Search"
+></not-found>
 
 <ul>
   <li *ngFor="let food of foods">
