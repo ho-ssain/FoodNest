@@ -120,3 +120,18 @@ MEAN (MongoDB, Express, Angular, Node)
 10. add urls.ts to frontend
 11. add HttpClient module
 12. Update food Service
+
+---
+
+**_Login Page_**
+
+1. generate component
+   1. add to routers
+   2. add ts
+   3. add html
+      1. import reactive forms module
+   4. add css
+2. add login api
+   1. use json
+   2. add json-web-token
+   3. test using rapid api client
