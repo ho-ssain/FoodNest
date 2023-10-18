@@ -74,3 +74,15 @@ MEAN (MongoDB, Express, Angular, Node)
    2. add ts
    3. add html
    4. add css
+
+6=> **_Cart Page_**
+
+1. cart-item model
+2. cart model
+3. cart service
+4. add cart button to food page
+5. cart page component
+   1. add route
+   2. add ts
+   3. add html
+   4. add css
