@@ -39,3 +39,14 @@ MEAN (MongoDB, Express, Angular, Node)
    functionality-:
    - getAll()
 5. generate Home Component (ts + html + css)
+
+3=> **_Search_**
+
+1. Food Service (need Search method)
+2. Route (need Search route)
+3. show search result in home component ((listen to the route))
+4. generate search Component
+   1. add to Home component
+   2. add ts
+   3. add html
+   4. add css

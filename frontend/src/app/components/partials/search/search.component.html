@@ -1,0 +1,13 @@
+<div>
+  <input
+    #s
+    type="text"
+    placeholder="Search Food"
+    [value]="searchTerm"
+    (keyup.enter)="search(s.value)"
+  />
+
+  <button (click)="search(s.value)">
+    <img src="../../../../assets/search.gif" alt="#" />
+  </button>
+</div>
