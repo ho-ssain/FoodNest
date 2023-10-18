@@ -50,3 +50,18 @@ MEAN (MongoDB, Express, Angular, Node)
    2. add ts
    3. add html
    4. add css
+
+4=> **_Tags Bar_**
+
+1. Tag Model
+2. sample tags to data.ts
+3. Food Service
+   1. Add get All tags method
+   2. Add get all foods by tag method
+4. Add tags route
+5. Show tag result in Home Component
+6. Generate tags component
+   1. Add to Home component
+   2. Add ts
+   3. Add html
+   4. Add css
