@@ -65,3 +65,12 @@ MEAN (MongoDB, Express, Angular, Node)
    2. Add ts
    3. Add html
    4. Add css
+
+5=> **_Adding Food Page_**
+
+1. food Service ()
+2. g Food-page Component
+   1. add route
+   2. add ts
+   3. add html
+   4. add css
