@@ -86,3 +86,14 @@ MEAN (MongoDB, Express, Angular, Node)
    2. add ts
    3. add html
    4. add css
+
+7=> **_Not Found! functionality_**
+
+1. cretae NF Component
+   1. ts
+   2. html
+   3. css
+2. add to pages
+   1. Home page
+   2. Food Page
+   3. Cart Page

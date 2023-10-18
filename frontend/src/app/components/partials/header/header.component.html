@@ -1,6 +1,6 @@
 <header>
   <div class="container">
-    <a routerLink="#" class="logo">
+    <a routerLink="" class="logo">
       <img src="../../../../assets/burger.png" alt="logo" />
     </a>
 
@@ -24,7 +24,7 @@
         <li>
           <a routerLink="/cart-page">
             <img src="../../../../assets/cart.png" alt="cart" />
-            <span>3</span>
+            <span *ngIf="cartQuantity">{{ cartQuantity }}</span>
           </a>
         </li>
       </ul>
