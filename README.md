@@ -18,6 +18,8 @@ MEAN (MongoDB, Express, Angular, Node)
 - RapidAPI Client
 - required VScode extensions for this project
 
+---
+
 **_Client side creation Phase-:_**
 
 - npm i -g @angular/cli
@@ -97,3 +99,24 @@ MEAN (MongoDB, Express, Angular, Node)
    1. Home page
    2. Food Page
    3. Cart Page
+
+---
+
+**_Server side creation Phase-:_**
+
+1=> Connect to backend
+
+1. create backend folder
+2. npm init
+3. npm i typescript
+4. tsconfig.json
+5. .gitignore
+6. sample data.ts
+7. npm i express cors
+8. server.ts
+   1. i @types
+   2. add Api's
+9. npm i nodemon ts-node --save-dev
+10. add urs.ts to frontend
+11. add HttpClient module
+12. Update food Service
