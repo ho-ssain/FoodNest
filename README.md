@@ -117,6 +117,6 @@ MEAN (MongoDB, Express, Angular, Node)
    1. i @types
    2. add Api's
 9. npm i nodemon ts-node --save-dev
-10. add urs.ts to frontend
+10. add urls.ts to frontend
 11. add HttpClient module
 12. Update food Service
