@@ -1,0 +1,90 @@
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+li a {
+  height: 25rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0.5rem;
+  color: white;
+  border: 1px solid whitesmoke;
+  border-radius: 1rem;
+}
+
+li a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+li a img {
+  object-fit: cover;
+  height: 14rem;
+}
+
+.content {
+  position: relative;
+  height: 7rem;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+}
+
+.fav {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 1.2rem;
+  color: red;
+}
+
+.fav.not {
+  color: gray;
+}
+
+.stars {
+  margin-bottom: 0.2rem;
+}
+
+.product-item-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.origins {
+  flex: 9;
+}
+
+.origins span {
+  border-radius: 2rem;
+  color: goldenrod;
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-right: 0.3rem;
+  padding: 0 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.cook-time {
+  font-size: 0.9rem;
+  flex: 3;
+  text-align: right;
+}
+
+.price {
+  position: absolute;
+  bottom: 0;
+  left: 0.9rem;
+  padding: 0.3rem 100% 0 0;
+  margin-top: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}

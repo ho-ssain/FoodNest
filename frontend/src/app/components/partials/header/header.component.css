@@ -1,0 +1,71 @@
+header {
+  position: relative;
+  padding: 0;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(248, 128, 128);
+}
+
+nav a img {
+  width: 32px;
+  height: 32px;
+}
+
+a img:hover {
+  transform: scale(0.9);
+  opacity: 0.7;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+ul a {
+  padding: 1rem;
+  display: inline-block;
+}
+
+a span {
+  background: rgb(71, 71, 3);
+
+  padding: 0.1rem 0.45rem;
+  font-size: 1rem;
+  border-radius: 100rem;
+}
+
+.menu-container {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+
+.menu-container:hover .menu {
+  display: block;
+}
+
+.menu a {
+  width: 100%;
+  min-width: 8rem;
+}
+
+.menu a:hover {
+  box-shadow: 5px 5px 5px grey;
+  transform: scale(0.9);
+}
