@@ -6,19 +6,20 @@
 
     <nav>
       <ul>
-        <li>
+        <li *ngIf="!isAuth()">
           <a routerLink="/login">
             <img src="../../../../assets/login.png" alt="login" />
           </a>
         </li>
-        <li class="menu-container">
+        <li *ngIf="isAuth()" class="menu-container">
           <a routerLink="/dashboard">
             <img src="../../../../assets/user.png" alt="user" />
+            {{ user.name }}
           </a>
           <div class="menu">
             <a routerLink="/profile">Profile</a>
             <a routerLink="/orders">Orders</a>
-            <a routerLink="">LogOut</a>
+            <a (click)="logout()">LogOut</a>
           </div>
         </li>
         <li>

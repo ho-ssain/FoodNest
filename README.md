@@ -132,6 +132,22 @@ MEAN (MongoDB, Express, Angular, Node)
       1. import reactive forms module
    4. add css
 2. add login api
+
    1. use json
    2. add json-web-token
    3. test using rapid api client
+
+3. connecting com --> api by User service
+   1. user model
+   2. user subject
+   3. login method
+      1. user urls
+      2. IUserLogin interface
+      3. add ngx-toastr
+         1. import module
+         2. import BrowserAnimationsModule
+         3. add styles in angular.json
+      4. add to Header
+   4. add local storage methods
+   5. add logout method
+      1. add to Header
