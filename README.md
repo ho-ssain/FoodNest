@@ -102,7 +102,7 @@ MEAN (MongoDB, Express, Angular, Node)
 
 ---
 
-**_Server side creation Phase-:_**
+8=> **_Server side creation Phase-:_**
 
 1=> Connect to backend
 
@@ -123,7 +123,7 @@ MEAN (MongoDB, Express, Angular, Node)
 
 ---
 
-**_Login Page_**
+9=> **_Login Page_**
 
 1. generate component
    1. add to routers
@@ -151,3 +151,10 @@ MEAN (MongoDB, Express, Angular, Node)
    4. add local storage methods
    5. add logout method
       1. add to Header
+
+10=> **_Make Components for Login Page_**
+
+1. Input Container
+2. Input Validation
+3. Text Input
+4. Default Button
