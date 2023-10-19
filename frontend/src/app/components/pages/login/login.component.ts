@@ -36,7 +36,7 @@ export class LoginComponent implements OnInit {
   submit() {
     this.isSubmitted = true;
     if (this.loginForm.invalid) return;
-    alert(`email ${this.fc.email.value}`);
+    // alert(`email ${this.fc.email.value}`);
 
     this.userService
       .login({

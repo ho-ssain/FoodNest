@@ -158,3 +158,17 @@ MEAN (MongoDB, Express, Angular, Node)
 2. Input Validation
 3. Text Input
 4. Default Button
+
+11=> **_Connect Login API to MongoDB Atlas_**
+
+1. Moving Api into routers
+2. create mongodb atlas
+3. create .env file
+4. install
+   1. mongoose
+   2. dotenv
+   3. bcryptjs
+   4. jsonwebtoken
+   5. express-async-handler
+5. connect to mongoDb atlas
+6. use mongoDb instead of data.ts in API's

@@ -1,6 +1,6 @@
 export const sample_foods: any[] = [
   {
-    id: "1",
+    // id: "1",
     name: "burger-1",
     cookTime: "10-20",
     price: 10,
@@ -11,7 +11,7 @@ export const sample_foods: any[] = [
     tags: ["Burger", "Lunch"],
   },
   {
-    id: "2",
+    // id: "2",
     name: "burger-2",
     price: 20,
     cookTime: "20-30",
@@ -22,7 +22,7 @@ export const sample_foods: any[] = [
     tags: ["Burger", "Lunch"],
   },
   {
-    id: "3",
+    // id: "3",
     name: "burger-3",
     price: 5,
     cookTime: "10-15",
@@ -33,7 +33,7 @@ export const sample_foods: any[] = [
     tags: ["Burger", "Lunch"],
   },
   {
-    id: "4",
+    // id: "4",
     name: "burger-4",
     price: 2,
     cookTime: "15-20",
@@ -44,7 +44,7 @@ export const sample_foods: any[] = [
     tags: ["Burger", "Lunch"],
   },
   {
-    id: "5",
+    // id: "5",
     name: "burger-5",
     price: 11,
     cookTime: "40-50",
@@ -55,7 +55,7 @@ export const sample_foods: any[] = [
     tags: ["Burger", "Lunch"],
   },
   {
-    id: "6",
+    // id: "6",
     name: "burger-6",
     price: 9,
     cookTime: "40-50",
@@ -66,7 +66,7 @@ export const sample_foods: any[] = [
     tags: ["Burger", "Lunch"],
   },
   {
-    id: "7",
+    // id: "7",
     name: "burger-7",
     price: 9,
     cookTime: "40-50",
@@ -77,7 +77,7 @@ export const sample_foods: any[] = [
     tags: ["Burger", "Lunch"],
   },
   {
-    id: "8",
+    // id: "8",
     name: "burger-8",
     price: 9,
     cookTime: "40-50",
@@ -88,7 +88,7 @@ export const sample_foods: any[] = [
     tags: ["Burger", "Lunch"],
   },
   {
-    id: "9",
+    // id: "9",
     name: "burger-9",
     price: 9,
     cookTime: "40-50",
@@ -99,7 +99,7 @@ export const sample_foods: any[] = [
     tags: ["Burger", "Lunch"],
   },
   {
-    id: "10",
+    // id: "10",
     name: "pizza-1",
     price: 9,
     cookTime: "40-50",
@@ -110,7 +110,7 @@ export const sample_foods: any[] = [
     tags: ["Pizza", "Lunch"],
   },
   {
-    id: "11",
+    // id: "11",
     name: "pizza-2",
     price: 9,
     cookTime: "40-50",
@@ -121,7 +121,7 @@ export const sample_foods: any[] = [
     tags: ["Pizza", "Lunch"],
   },
   {
-    id: "12",
+    // id: "12",
     name: "pizza-3",
     price: 9,
     cookTime: "40-50",
@@ -132,7 +132,7 @@ export const sample_foods: any[] = [
     tags: ["Pizza", "Lunch"],
   },
   {
-    id: "13",
+    // id: "13",
     name: "pizza-4",
     price: 9,
     cookTime: "40-50",
@@ -143,7 +143,7 @@ export const sample_foods: any[] = [
     tags: ["Pizza", "Lunch"],
   },
   {
-    id: "14",
+    // id: "14",
     name: "pizza-5",
     price: 9,
     cookTime: "40-50",
@@ -154,7 +154,7 @@ export const sample_foods: any[] = [
     tags: ["Pizza", "Lunch"],
   },
   {
-    id: "15",
+    // id: "15",
     name: "pizza-6",
     price: 9,
     cookTime: "40-50",
@@ -165,7 +165,7 @@ export const sample_foods: any[] = [
     tags: ["Pizza", "Lunch"],
   },
   {
-    id: "16",
+    // id: "16",
     name: "fry-1",
     price: 9,
     cookTime: "40-50",
@@ -176,7 +176,7 @@ export const sample_foods: any[] = [
     tags: ["Fry", "SlowFood"],
   },
   {
-    id: "17",
+    // id: "17",
     name: "fry-2",
     price: 9,
     cookTime: "40-50",
@@ -187,7 +187,7 @@ export const sample_foods: any[] = [
     tags: ["Fry", "SlowFood"],
   },
   {
-    id: "18",
+    // id: "18",
     name: "fry-3",
     price: 9,
     cookTime: "40-50",
@@ -198,7 +198,7 @@ export const sample_foods: any[] = [
     tags: ["Fry", "SlowFood"],
   },
   {
-    id: "19",
+    // id: "19",
     name: "fry-4",
     price: 9,
     cookTime: "40-50",
@@ -209,7 +209,7 @@ export const sample_foods: any[] = [
     tags: ["Fry", "SlowFood"],
   },
   {
-    id: "20",
+    // id: "20",
     name: "fry-5",
     price: 9,
     cookTime: "40-50",
