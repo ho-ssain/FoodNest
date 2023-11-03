@@ -1,32 +1,25 @@
 <header>
   <div class="container">
-    <a routerLink="" class="logo">
-      <img src="../../../../assets/burger.png" alt="logo" />
+    <a routerLink="/" class="logo">
+      <img src="../../../../assets/logo/burger.png" alt="logo" />
+      <span>BurgerNest</span>
     </a>
 
     <nav>
       <ul>
-        <li *ngIf="!isAuth()">
-          <a routerLink="/login">
-            <img src="../../../../assets/login.png" alt="login" />
-          </a>
+        <li>
+          <a routerLink="/login">SignIn</a>
         </li>
-        <li *ngIf="isAuth()" class="menu-container">
-          <a routerLink="/dashboard">
-            <img src="../../../../assets/user.png" alt="user" />
-            {{ user.name }}
-          </a>
+        <li class="menu-container">
+          <a routerLink="/dashboard">Kabir</a>
           <div class="menu">
             <a routerLink="/profile">Profile</a>
             <a routerLink="/orders">Orders</a>
-            <a (click)="logout()">LogOut</a>
+            <a>SignOut</a>
           </div>
         </li>
         <li>
-          <a routerLink="/cart-page">
-            <img src="../../../../assets/cart.png" alt="cart" />
-            <span *ngIf="cartQuantity">{{ cartQuantity }}</span>
-          </a>
+          <a routerLink="/cart-page"> Cart <span class="cart">0</span> </a>
         </li>
       </ul>
     </nav>

@@ -1,10 +1,3 @@
-<search></search>
-<app-tag></app-tag>
-<app-not-found
-  [visible]="!foods || !foods.length"
-  resetLinkText="Reset Search"
-></app-not-found>
-
 <ul>
   <li *ngFor="let food of foods">
     <a routerLink="/food/{{ food.id }}">
@@ -13,17 +6,25 @@
         <div class="name">
           {{ food.name }}
         </div>
+
         <span class="fav {{ food.fav ? '' : 'not' }}">❤</span>
-        <div class="stars">⭐⭐⭐⭐⭐</div>
+
+        <div class="stars">
+          <star-ratings [stars]="food.stars" />
+        </div>
+
         <div class="product-item-footer">
           <div class="origins">
-            <span *ngFor="let origin of food.origins">{{ origin }}</span>
+            <span *ngFor="let origin of food.origins">
+              {{ origin }}
+            </span>
           </div>
           <div class="cookTime">
             <span>⏱️</span>
             {{ food.cookTime }}
           </div>
         </div>
+
         <div class="price">
           {{ food.price | currency }}
         </div>

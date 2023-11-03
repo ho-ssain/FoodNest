@@ -1,5 +1,5 @@
 import { Food } from './app/shared/models/Food';
-import { Tag } from './app/shared/models/Tag';
+// import { Tag } from './app/shared/models/Tag';
 
 export const sample_foods: Food[] = [
   {
@@ -10,8 +10,8 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.5,
-    imageUrl: 'assets/foods/b1.png',
-    tags: ['Burger', 'Lunch'],
+    imageUrl: 'assets/burger/b1.png',
+    tags: ['Burger'],
   },
   {
     id: '2',
@@ -21,7 +21,7 @@ export const sample_foods: Food[] = [
     fav: true,
     origins: ['persia', 'middle east', 'china'],
     stars: 4.7,
-    imageUrl: 'assets/foods/b5.png',
+    imageUrl: 'assets/burger/b12.png',
     tags: ['Burger', 'Lunch'],
   },
   {
@@ -32,8 +32,8 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['germany', 'us'],
     stars: 3.5,
-    imageUrl: 'assets/foods//b6.png',
-    tags: ['Burger', 'Lunch'],
+    imageUrl: 'assets/burger/b5.png',
+    tags: ['Burger'],
   },
   {
     id: '4',
@@ -43,8 +43,8 @@ export const sample_foods: Food[] = [
     fav: true,
     origins: ['belgium', 'france'],
     stars: 3.3,
-    imageUrl: 'assets/foods/b7.png',
-    tags: ['Burger', 'Lunch'],
+    imageUrl: 'assets/burger/b6.png',
+    tags: ['Burger'],
   },
   {
     id: '5',
@@ -54,8 +54,8 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['india', 'asia'],
     stars: 3.0,
-    imageUrl: 'assets/foods/b8.png',
-    tags: ['Burger', 'Lunch'],
+    imageUrl: 'assets/burger/b7.png',
+    tags: ['Burger'],
   },
   {
     id: '6',
@@ -65,8 +65,8 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/foods//b9.png',
-    tags: ['Burger', 'Lunch'],
+    imageUrl: 'assets/burger/b8.png',
+    tags: ['Burger'],
   },
   {
     id: '7',
@@ -76,8 +76,8 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/foods/b10.png',
-    tags: ['Burger', 'Lunch'],
+    imageUrl: 'assets/burger/b9.png',
+    tags: ['Burger'],
   },
   {
     id: '8',
@@ -87,8 +87,8 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/foods/b11.png',
-    tags: ['Burger', 'Lunch'],
+    imageUrl: 'assets/burger/b10.png',
+    tags: ['Burger'],
   },
   {
     id: '9',
@@ -98,8 +98,8 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/foods/b12.png',
-    tags: ['Burger', 'Lunch'],
+    imageUrl: 'assets/burger/b11.png',
+    tags: ['Burger'],
   },
   {
     id: '10',
@@ -109,8 +109,8 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/foods/p1.png',
-    tags: ['Pizza', 'Lunch'],
+    imageUrl: 'assets/pizza/p1.png',
+    tags: ['Pizza'],
   },
   {
     id: '11',
@@ -120,8 +120,8 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/foods/p2.png',
-    tags: ['Pizza', 'Lunch'],
+    imageUrl: 'assets/pizza/p2.png',
+    tags: ['Pizza'],
   },
   {
     id: '12',
@@ -131,8 +131,8 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['America'],
     stars: 4.0,
-    imageUrl: 'assets/foods/p3.png',
-    tags: ['Pizza', 'Lunch'],
+    imageUrl: 'assets/pizza/p3.png',
+    tags: ['Pizza'],
   },
   {
     id: '13',
@@ -142,8 +142,8 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['spain'],
     stars: 4.0,
-    imageUrl: 'assets/foods/p4.png',
-    tags: ['Pizza', 'Lunch'],
+    imageUrl: 'assets/pizza/p4.png',
+    tags: ['Pizza'],
   },
   {
     id: '14',
@@ -153,8 +153,8 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/foods/p5.png',
-    tags: ['Pizza', 'Lunch'],
+    imageUrl: 'assets/pizza/p5.png',
+    tags: ['Pizza'],
   },
   {
     id: '15',
@@ -164,30 +164,30 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['german'],
     stars: 4.0,
-    imageUrl: 'assets/foods/p6.png',
-    tags: ['Pizza', 'Lunch'],
+    imageUrl: 'assets/pizza/p6.png',
+    tags: ['Pizza'],
   },
   {
     id: '16',
-    name: 'fry-1',
+    name: 'Fried Tandoori Chicken',
     price: 9,
     cookTime: '40-50',
     fav: false,
-    origins: ['italy'],
+    origins: ['india'],
     stars: 4.0,
-    imageUrl: 'assets/foods/f1.png',
-    tags: ['Fry', 'SlowFood'],
+    imageUrl: 'assets/fried/Fried Tandoori Chicken.jpg',
+    tags: ['Fried-chicken'],
   },
   {
     id: '17',
-    name: 'fry-2',
+    name: 'The Ultimate Southern Fried Chicken',
     price: 9,
     cookTime: '40-50',
     fav: false,
-    origins: ['italy'],
+    origins: ['USA'],
     stars: 4.0,
-    imageUrl: 'assets/foods/f2.png',
-    tags: ['Fry', 'SlowFood'],
+    imageUrl: 'assets/fried/The Ultimate Southern Fried Chicken.jpg',
+    tags: ['Fried-chicken'],
   },
   {
     id: '18',
@@ -197,7 +197,7 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/foods/f3.png',
+    imageUrl: 'assets/fried/f1.png',
     tags: ['Fry', 'SlowFood'],
   },
   {
@@ -208,7 +208,7 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/foods/f4.png',
+    imageUrl: 'assets/fried/f2.png',
     tags: ['Fry', 'SlowFood'],
   },
   {
@@ -219,17 +219,15 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/foods/f5.png',
+    imageUrl: 'assets/fried/f4.png',
     tags: ['Fry', 'SlowFood'],
   },
 ];
 
-export const sample_tags: Tag[] = [
-  { name: 'All', count: 6 },
-  { name: 'Burger', count: 4 },
-  { name: 'Pizza', count: 2 },
-  { name: 'Fry', count: 3 },
-  { name: 'SlowFood', count: 2 },
-  { name: 'Lunch', count: 1 },
-  { name: 'Soup', count: 1 },
-];
+// export const sample_tags: Tag[] = [
+//   { name: 'All', count: 6 },
+//   { name: 'Burger', count: 4 },
+//   { name: 'Pizza', count: 2 },
+//   { name: 'Fried-chicken', count: 3 },
+//   { name: 'Drinks', count: 1 },
+// ];
