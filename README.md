@@ -172,3 +172,5 @@ MEAN (MongoDB, Express, Angular, Node)
    5. express-async-handler
 5. connect to mongoDb atlas
 6. use mongoDb instead of data.ts in API's
+
+12=> Register Page
