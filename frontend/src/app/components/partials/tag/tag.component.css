@@ -1,0 +1,18 @@
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div a {
+  color: wheat;
+  padding: 0.7rem 1rem;
+  margin: 0.4rem 0.3rem;
+  border-radius: 10rem;
+  font-weight: 600;
+}
+
+div a.active {
+  border: 1px solid aqua;
+  background: rgb(52, 37, 37);
+}
