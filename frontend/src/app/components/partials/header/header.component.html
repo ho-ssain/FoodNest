@@ -7,15 +7,15 @@
 
     <nav>
       <ul>
-        <li>
-          <a routerLink="/login">SignIn</a>
+        <li *ngIf="!isAuth">
+          <a routerLink="/login">Sign-in</a>
         </li>
-        <li class="menu-container">
-          <a routerLink="/dashboard">Kabir</a>
+        <li *ngIf="isAuth" class="menu-container">
+          <a routerLink="/dashboard">{{ user.name }}</a>
           <div class="menu">
             <a routerLink="/profile">Profile</a>
             <a routerLink="/orders">Orders</a>
-            <a>SignOut</a>
+            <a (click)="logout()">Sign-out</a>
           </div>
         </li>
         <li>
