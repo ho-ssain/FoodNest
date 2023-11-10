@@ -1,20 +1,21 @@
 import { Component } from '@angular/core';
-import { Cart } from 'src/app/shared/models/Cart';
+import { Cart } from '../../../shared/models/Cart';
 import { CartService } from '../../../services/cart.service';
-import { CartItem } from 'src/app/shared/models/CartItem';
+import { Observable } from 'rxjs';
+import { CartItem } from '../../../shared/models/CartItem';
 
 @Component({
   selector: 'app-cart-page',
   templateUrl: './cart-page.component.html',
-  styleUrls: ['./cart-page.component.css'],
+  styleUrl: './cart-page.component.css',
 })
 export class CartPageComponent {
   cart!: Cart;
 
   constructor(private cartService: CartService) {
-    this.cartService
-      .getCartObservable()
-      .subscribe((cart) => (this.cart = cart));
+    this.cartService.getCartObservable().subscribe((cart) => {
+      this.cart = cart;
+    });
   }
 
   removeFromCart(cartItem: CartItem) {

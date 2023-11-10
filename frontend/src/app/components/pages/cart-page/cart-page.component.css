@@ -72,7 +72,7 @@ li .remove-button:hover {
   cursor: pointer;
 }
 
-.checkOut {
+.checkout {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -85,7 +85,7 @@ li .remove-button:hover {
   margin: 0.5rem;
 }
 
-.checkOut > div {
+.checkout > div {
   font-size: 1.8rem;
   margin: 1rem;
   flex: 3;
@@ -105,7 +105,7 @@ li .remove-button:hover {
   color: grey;
 }
 
-.checkOut a {
+.checkout a {
   padding: 1rem;
   color: white;
   background: #e72929;
@@ -117,7 +117,7 @@ li .remove-button:hover {
   justify-self: center;
 }
 
-.checkOut a:hover {
+.checkout a:hover {
   opacity: 1;
   cursor: pointer;
 }

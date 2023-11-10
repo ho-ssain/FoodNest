@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'star-ratings',
   templateUrl: './star-ratings.component.html',
-  styleUrls: ['./star-ratings.component.css'],
+  styleUrl: './star-ratings.component.css',
 })
 export class StarRatingsComponent {
   @Input() stars!: number;

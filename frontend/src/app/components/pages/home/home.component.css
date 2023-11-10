@@ -16,13 +16,16 @@ li a {
   border: 1px solid whitesmoke;
   border-radius: 1rem;
   margin: 0.7rem;
-  color: wheat;
+  color: white;
 }
 
 li a:hover {
   opacity: 0.9;
   transform: scale(0.97);
   cursor: pointer;
+  border: 1px solid #9818ee;
+  color: #9818ee;
+  font-weight: bold;
 }
 
 li a img {

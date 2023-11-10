@@ -5,14 +5,14 @@ div {
 }
 
 div a {
-  color: wheat;
+  color: #df0e61;
   padding: 0.7rem 1rem;
   margin: 0.4rem 0.3rem;
-  border-radius: 10rem;
+  border-radius: 1rem;
   font-weight: 600;
 }
 
 div a.active {
-  border: 1px solid aqua;
-  background: rgb(52, 37, 37);
+  color: white;
+  background: rgb(0, 0, 0);
 }

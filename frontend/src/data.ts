@@ -21,7 +21,7 @@ export const sample_foods: Food[] = [
     fav: true,
     origins: ['persia', 'middle east', 'china'],
     stars: 4.7,
-    imageUrl: 'assets/burger/b12.png',
+    imageUrl: 'assets/burger/b2.png',
     tags: ['Burger', 'Lunch'],
   },
   {
@@ -32,7 +32,7 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['germany', 'us'],
     stars: 3.5,
-    imageUrl: 'assets/burger/b5.png',
+    imageUrl: 'assets/burger/b3.png',
     tags: ['Burger'],
   },
   {
@@ -43,7 +43,7 @@ export const sample_foods: Food[] = [
     fav: true,
     origins: ['belgium', 'france'],
     stars: 3.3,
-    imageUrl: 'assets/burger/b6.png',
+    imageUrl: 'assets/burger/b4.png',
     tags: ['Burger'],
   },
   {
@@ -54,7 +54,7 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['india', 'asia'],
     stars: 3.0,
-    imageUrl: 'assets/burger/b7.png',
+    imageUrl: 'assets/burger/b5.png',
     tags: ['Burger'],
   },
   {
@@ -65,7 +65,7 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/burger/b8.png',
+    imageUrl: 'assets/burger/b6.png',
     tags: ['Burger'],
   },
   {
@@ -76,7 +76,7 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/burger/b9.png',
+    imageUrl: 'assets/burger/b7.png',
     tags: ['Burger'],
   },
   {
@@ -87,7 +87,7 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/burger/b10.png',
+    imageUrl: 'assets/burger/b8.png',
     tags: ['Burger'],
   },
   {
@@ -98,7 +98,7 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/burger/b11.png',
+    imageUrl: 'assets/burger/b9.png',
     tags: ['Burger'],
   },
   {
@@ -175,7 +175,7 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['india'],
     stars: 4.0,
-    imageUrl: 'assets/fried/Fried Tandoori Chicken.jpg',
+    imageUrl: 'assets/fried/f1.png',
     tags: ['Fried-chicken'],
   },
   {
@@ -186,7 +186,7 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['USA'],
     stars: 4.0,
-    imageUrl: 'assets/fried/The Ultimate Southern Fried Chicken.jpg',
+    imageUrl: 'assets/fried/f2.png',
     tags: ['Fried-chicken'],
   },
   {
@@ -197,7 +197,7 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/fried/f1.png',
+    imageUrl: 'assets/fried/f3.png',
     tags: ['Fry', 'SlowFood'],
   },
   {
@@ -208,7 +208,7 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/fried/f2.png',
+    imageUrl: 'assets/fried/f4.png',
     tags: ['Fry', 'SlowFood'],
   },
   {
@@ -219,7 +219,29 @@ export const sample_foods: Food[] = [
     fav: false,
     origins: ['italy'],
     stars: 4.0,
-    imageUrl: 'assets/fried/f4.png',
+    imageUrl: 'assets/fried/f5.png',
+    tags: ['Fry', 'SlowFood'],
+  },
+  {
+    id: '20',
+    name: 'fry-6',
+    price: 9,
+    cookTime: '40-50',
+    fav: false,
+    origins: ['italy'],
+    stars: 4.0,
+    imageUrl: 'assets/fried/f6.png',
+    tags: ['Fry', 'SlowFood'],
+  },
+  {
+    id: '20',
+    name: 'fry-7',
+    price: 9,
+    cookTime: '40-50',
+    fav: false,
+    origins: ['italy'],
+    stars: 4.0,
+    imageUrl: 'assets/fried/f7.png',
     tags: ['Fry', 'SlowFood'],
   },
 ];

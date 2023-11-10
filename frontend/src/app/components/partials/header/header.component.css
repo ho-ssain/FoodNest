@@ -4,20 +4,20 @@ header {
 }
 
 a {
-  color: white;
+  color: #9818ee;
   font-size: 1.6rem;
+  font-weight: bold;
 }
 
 a:hover {
-  color: rgb(17, 255, 255);
+  color: white;
   cursor: pointer;
-  transform: scale(1.1);
 }
 
 .container {
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 a.logo {

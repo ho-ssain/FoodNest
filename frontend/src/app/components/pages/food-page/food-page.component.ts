@@ -1,30 +1,26 @@
 import { Component } from '@angular/core';
-import { Food } from 'src/app/shared/models/Food';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Food } from '../../../shared/models/Food';
 import { FoodService } from '../../../services/food.service';
+import { Router, ActivatedRoute } from '@angular/router';
 import { CartService } from '../../../services/cart.service';
 
 @Component({
-  selector: 'app-food-page',
+  selector: 'food-page',
   templateUrl: './food-page.component.html',
-  styleUrls: ['./food-page.component.css'],
+  styleUrl: './food-page.component.css',
 })
 export class FoodPageComponent {
   food!: Food;
 
   constructor(
-    activatedRoute: ActivatedRoute,
     foodService: FoodService,
-    private cartService: CartService,
-    private router: Router
+    activatedRoute: ActivatedRoute,
+    private router: Router,
+    private cartService: CartService
   ) {
-    activatedRoute.params.subscribe((p) => {
-      if (p.id) {
-        foodService.getFoodById(p.id).subscribe((serverFood) => {
-          console.log('Received food data:', serverFood);
-          this.food = serverFood;
-        });
-      }
+    activatedRoute.params.subscribe((params) => {
+      if (params.id) this.food = foodService.getFoodById(params.id);
+      console.log(params);
     });
   }
 

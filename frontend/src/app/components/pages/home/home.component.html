@@ -1,9 +1,10 @@
 <search></search>
 <tag></tag>
-<app-not-found
+
+<not-found
   [visible]="!foods || !foods.length"
   resetLinktext="Reset Search"
-></app-not-found>
+></not-found>
 
 <ul>
   <li *ngFor="let food of foods">
@@ -13,11 +14,10 @@
         <div class="name">
           {{ food.name }}
         </div>
-
         <span class="fav {{ food.fav ? '' : 'not' }}">❤</span>
 
         <div class="stars">
-          <star-ratings [stars]="food.stars" />
+          <star-ratings [stars]="food.stars"></star-ratings>
         </div>
 
         <div class="product-item-footer">
