@@ -7,21 +7,25 @@
 
     <nav>
       <ul>
-        <li>
+        <li *ngIf="!isAuth">
           <a routerLink="/login">Sign-in</a>
         </li>
-        <li class="menu-container">
-          <a routerLink="/dashboard">Kabir</a>
+        <li *ngIf="isAuth" class="menu-container">
+          <a routerLink="/dashboard">
+            {{ user.name }}
+          </a>
           <div class="menu">
             <a routerLink="/profile">Profile</a>
             <a routerLink="/orders">Orders</a>
-            <a>Sign-out</a>
+            <a (click)="signOut()">Sign-out</a>
           </div>
         </li>
         <li>
           <a routerLink="/cart-page">
             Cart
-            <span class="cart">23</span>
+            <span *ngIf="cartQunatity" class="cart">
+              {{ cartQunatity }}
+            </span>
           </a>
         </li>
       </ul>
