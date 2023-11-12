@@ -1,6 +1,6 @@
 <div class="container">
   <div class="content">
-    <app-title title="Order Form" fontSize="1.6rem"></app-title>
+    <app-title title="Order Form" fontSize="1.6rem" color="white"></app-title>
     <form [formGroup]="checkoutForm">
       <text-input [control]="fc.name" label="Name"></text-input>
       <text-input [control]="fc.address" label="Address"></text-input>
@@ -9,7 +9,12 @@
   </div>
 
   <div class="map">
-    <app-title title="Choose your address on map" fontSize="1.9rem"></app-title>
+    <app-title
+      title="Choose your address on map"
+      fontSize="1.9rem"
+      color="white"
+    ></app-title>
+    <map [order]="order"></map>
   </div>
 
   <div class="buttons-container">
