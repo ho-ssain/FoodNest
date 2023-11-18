@@ -1,8 +1,8 @@
-# BurgerNest
+# FoodNest
 
-## (An e-commerce online food-ordering system for selling burgers and various other food items.)
+## (An e-commerce online food-ordering system for selling various tasty and Healthy food items.)
 
-### ...........Implementation overview:-
+### Implementation overview:-
 
 **Used Stack**
 MEAN (MongoDB, Express, Angular, Node)
