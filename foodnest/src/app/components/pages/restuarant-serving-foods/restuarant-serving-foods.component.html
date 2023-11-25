@@ -1,0 +1,46 @@
+<main>
+  <header>
+    <h2>Restaurant List:</h2>
+    <span>(that serving this food category now)</span>
+  </header>
+
+  <ul *ngIf="restaurantList && restaurantList.length">
+    <li *ngFor="let restaurant of restaurantList">
+      <a>
+        <div class="div-1">
+          <img [src]="restaurant.photoUrl" alt="" />
+          <br />
+          <span>🤍</span>
+          <star-ratings></star-ratings>
+        </div>
+
+        <div class="content">
+          <div class="res-name">{{ restaurant.restaurantName }}</div>
+          <div class="cat-name">{{ restaurant.categoryName }}</div>
+          <div class="open-hrs">{{ restaurant.openingHours }}</div>
+          <button
+            (click)="navigateToRestaurant(restaurant.restaurantID)"
+            class="btn"
+            [disabled]="!restaurant.availability"
+          >
+            Order
+          </button>
+        </div>
+      </a>
+    </li>
+  </ul>
+
+  <div
+    class="no-serving"
+    *ngIf="!restaurantList || !restaurantList.length"
+    [ngStyle]="{
+      textAlign: 'center',
+      color: 'red',
+      fontSize: '1.6rem',
+      marginTop: '5rem',
+      opacity: '0.9'
+    }"
+  >
+    <p>No Restaurant Currently Serving this Food Item</p>
+  </div>
+</main>

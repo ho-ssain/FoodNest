@@ -1,0 +1,18 @@
+<!-- <app-search></app-search>
+<app-tags></app-tags>
+<app-not-found
+  [visible]="!foods || !foods.length"
+  resetLinkText="Reset Search"
+></app-not-found> -->
+
+<ul>
+  <li *ngFor="let cat of foodItems">
+    <a (click)="navigateToRestaurantList(cat.categoryId)">
+      <img [src]="cat.photoUrl" alt="" />
+      <div class="content">
+        <div class="name">{{ cat.categoryName }}</div>
+        <div class="profile">See Profile</div>
+      </div>
+    </a>
+  </li>
+</ul>

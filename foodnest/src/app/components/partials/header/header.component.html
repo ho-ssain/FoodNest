@@ -1,0 +1,33 @@
+<header>
+  <main>
+    <a routerLink="/" class="logo">FoodNest</a>
+
+    <nav>
+      <ul>
+        <li>
+          <a routerLink="/foods">Home</a>
+        </li>
+        <li *ngIf="!user">
+          <a routerLink="/login">Sign-in</a>
+        </li>
+        <li *ngIf="user" class="menu-container">
+          <a routerLink="/dashboard">{{ user.data.userName }} </a>
+          <div class="menu">
+            <a routerLink="/profile">Profile</a>
+            <a routerLink="/orders">Orders</a>
+            <a (click)="logout()"> Sign-out</a>
+          </div>
+        </li>
+        <li>
+          <a routerLink="/about">About</a>
+        </li>
+        <li>
+          <a routerLink="/contact">Contact</a>
+        </li>
+        <li>
+          <a routerLink="/cart-page"> Cart <span>10</span> </a>
+        </li>
+      </ul>
+    </nav>
+  </main>
+</header>

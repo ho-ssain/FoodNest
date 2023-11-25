@@ -1,0 +1,28 @@
+<main>
+  <header>
+    <h2>Food Items:</h2>
+    <span>(Of Restaurant ByCategory)</span>
+  </header>
+
+  <ul>
+    <li *ngFor="let food of foodItemsList">
+      <a>
+        <div class="div-1">
+          <img [src]="food.photoUrl" alt="" />
+          <br />
+          <div class="menu-name">{{ food.menuItemName }}</div>
+          <div class="desc">{{ food.description }}</div>
+          <div class="price">{{ food.price | currency }}</div>
+        </div>
+
+        <div class="content">
+          <span>🤍</span>
+          <star-ratings></star-ratings>
+          <button class="btn" [disabled]="!food.availability">
+            Add To Cart
+          </button>
+        </div>
+      </a>
+    </li>
+  </ul>
+</main>

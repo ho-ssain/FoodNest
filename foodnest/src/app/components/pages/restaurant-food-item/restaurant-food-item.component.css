@@ -1,0 +1,106 @@
+main {
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 62%,
+    rgba(4, 106, 126, 1) 100%
+  );
+  min-height: 90vh;
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+}
+
+header h2 {
+  color: white;
+  font-family: "Concert One", cursive;
+}
+
+header span {
+  color: gray;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
+
+li a {
+  height: 25rem;
+  width: 30rem;
+  border: 1px solid whitesmoke;
+  border-radius: 1.6rem;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  color: skyblue;
+}
+
+.div-1 {
+  padding: 1rem;
+  position: relative;
+}
+
+li a img {
+  object-fit: cover;
+  border-radius: 2rem;
+  height: 10rem;
+}
+
+.menu-name {
+  font-size: 1.4rem;
+  font-family: "Concert One", cursive;
+  margin-bottom: 1rem;
+}
+
+.desc {
+  color: gray;
+}
+
+.price {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: green;
+  font-size: 1.4rem;
+}
+
+.price::before {
+  content: "Price: ";
+  color: gray;
+}
+
+.content {
+  padding: 1rem 3rem;
+  margin-top: 5rem;
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1rem;
+  background: #e72929;
+  color: white;
+  padding: 0.4rem 0.7rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  opacity: 0.5; /* Reduce opacity for a disabled look */
+  cursor: not-allowed; /* Change cursor to indicate the button is not interactive */
+}
